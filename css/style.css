@@ -773,4 +773,9 @@ span {
     .conteudo-cr-imagem{
         display: none;
     }
+
+
+    #formContact input{
+      width: 80%;
+    }
 }
