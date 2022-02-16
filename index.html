@@ -15,13 +15,13 @@
 <body>
     <div id="containerBanner">
         <!-- Cabecalho --> 
+        <img class="logo-menu" src="./assets/logo-menu1.png" alt="logo">
         <header class="cabecalho" id="topo">
             <nav class="cabecalho-menu">
-                <img class="logo-menu" src="./assets/logo-menu1.png" alt="logo">
                 <li class="cabecalho-escrito"><a href="#secao-projetos">Projetos</a></li>
                 <li class="cabecalho-escrito"><a href="#secao-sm">Sobre mim</a></li>
                 <li class="cabecalho-escrito"><a href="#secao-cr">Cursos na área</a></li>
-                <li class="cabecalho-escrito"><a href="#contato">Contato</a></li>
+                <li class="cabecalho-escrito"><a href="#rodape">Contato</a></li>
             </nav>
         </header>
         <div class="conteudo-principal">
@@ -64,9 +64,8 @@
         <!--  Sobre mim  -->
         <section class="sobre-mim" id="secao-sm">
             <div class="conteudo-sobre-mim">  
-                <h2 class="conteudo-sm-titulo"><strong>Sobre mim:</strong></h2>
-                <p class="conteudo-sm-paragrafo">Meu nome é Adrian, Cras vel ligula mollis. Etiam condimentum posuere netus ridiculus gravida per class velit. Morbi montes lorem hac augue phasellus libero nisl dui class per dui tempus erat fringilla erat sem augue lacus eleifend. Quis urna. Non quam lorem per.</p>
-                <p class="conteudo-sm-paragrafo">Meu nome é Adrian, Cras vel ligula mollis. Etiam condimentum posuere netus ridiculus gravida per class velit. Morbi montes lorem hac augue phasellus libero nisl dui class per dui tempus erat fringilla erat sem augue lacus eleifend. Quis urna. Non quam lorem per.</p>
+                <h2 class="conteudo-sm-titulo"><strong>Quem é <span>Adrian</span></strong></h2><br>
+                <p class="conteudo-sm-paragrafo">Meu nome é Adrian, Cras vel ligula mollis. Etiam condimentum posuere netus ridiculus gravida per class velit. Morbi montes lorem hac augue phasellus libero nisl dui class per dui tempus erat fringilla erat sem augue lacus eleifend. Quis urna. Non quam lorem per.Meu nome é Adrian, Cras vel ligula mollis. Etiam condimentum posuere netus ridiculus gravida per class velit. Morbi montes lorem hac augue phasellus libero nisl dui class per dui tempus erat fringilla erat sem augue lacus eleifend. Quis urna. Non quam lorem per.</p>
             </div>
             <img class="imagem-sobre-mim" src="./assets/minhafoto.png" alt="foto-pessoal">
         </section>
@@ -81,6 +80,31 @@
             <img class="conteudo-cr-imagem" src="./assets/imagem-principal-sistema1 (600 x 600 px).png" alt="imagem-livros">
         </section>
         <!-- Rodape -->
+        <footer class="footer">
+            <div id="rodape">
+                <form id="formContact" method="get" action="">
+                    <h2 class="contatoTitle">Contato</h2>
+                    <p>Entre em contato comigo para mais informações sobre meu serviço.</p>
+
+                    <input type="text" name="name" id="inputName" placeholder="Nome">
+                    <input type="email" name="email" id="inputEmail" placeholder="Email">
+                    <textarea name="msg" id="textMsg" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                    
+                    <button class="botao" type="submit">Enviar</button>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/adrian.campana/" class="iconInstagram">
+                            <img src="./assets/instagram.png" alt="iconInstagram">
+                        </a>
+                        <a href="http://www.facebook.com/" class="iconFacebook">
+                            <img src="./assets/facebook.png" alt="iconFacebook">
+                        </a>
+                        <a href="http://" class="iconWhatsapp">
+                            <img src="./assets/whatsapp.png" alt="iconWhatsapp">
+                        </a>
+                    </div>    
+                </form>
+            </div>
+        </footer>
     </main>
 <script type="text/javascript" src="scripts/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src=".scripts/main.js"></script>
