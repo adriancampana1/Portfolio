@@ -778,4 +778,7 @@ span {
     #formContact input{
       width: 80%;
     }
+    textarea{
+      max-width: 80%;
+    }
 }
